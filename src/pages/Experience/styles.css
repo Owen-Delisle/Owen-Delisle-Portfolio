@@ -1,0 +1,13 @@
+.Experience {
+  background-color: #33363d;
+  min-height: 100vh;
+}
+
+.Experience__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  width: 60%;
+  margin: 0 auto;
+}

@@ -1,26 +1,26 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component, Fragment } from "react";
+import { ParallaxProvider } from "react-scroll-parallax";
+import "./App.css";
+import Scrollchor from "react-scrollchor";
+
+import Header from "./components/Header";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import Experience from "./pages/Experience";
+import Education from "./pages/Education";
+import Contact from "./pages/Contact";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <section className="App">
+        <Header />
+        <Home id="home" />
+        <Projects id="projects" />
+        <Experience id="experience" />
+        <Education id="education" />
+        <Contact id="contact" />
+      </section>
     );
   }
 }
