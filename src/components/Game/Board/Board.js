@@ -175,6 +175,13 @@ class Game extends Component {
       this.ctx.fillText("Start Game", this.ww / 2 - 135, this.wh / 2 - 50);
       this.ctx.font = "20px Verdana";
       // this.ctx.fillStyle = "red";
+
+      this.ctx.fillText(
+        "Left and Right Arrows to move",
+        this.ww / 2 - 140,
+        this.wh / 2 + 80
+      );
+
       this.ctx.fillText(
         "Hit Enter to start",
         this.ww / 2 - 80,
