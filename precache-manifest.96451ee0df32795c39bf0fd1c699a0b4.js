@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/Owen-Delisle-Portfolio/static/media/GC SC 4.2ec81b48.png"
   },
   {
-    "revision": "63953fedf842bd7fde52",
+    "revision": "6d55200062b2eb57b38e",
     "url": "/Owen-Delisle-Portfolio/static/css/main.4bb2b4c7.chunk.css"
   },
   {
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/Owen-Delisle-Portfolio/static/media/GC SC 3.b4bcd1f8.png"
   },
   {
-    "revision": "63953fedf842bd7fde52",
-    "url": "/Owen-Delisle-Portfolio/static/js/main.63953fed.chunk.js"
+    "revision": "6d55200062b2eb57b38e",
+    "url": "/Owen-Delisle-Portfolio/static/js/main.6d552000.chunk.js"
   },
   {
     "revision": "51df5ca2d26d264276b20c71b3816f6b",
@@ -124,7 +124,7 @@ self.__precacheManifest = [
     "url": "/Owen-Delisle-Portfolio/static/media/react-icon.544945e3.png"
   },
   {
-    "revision": "27d60d46dd9a0e63ab64a240fffb4a83",
+    "revision": "ec0a9f24b327f5b3f304b1926a6d9473",
     "url": "/Owen-Delisle-Portfolio/index.html"
   }
 ];
