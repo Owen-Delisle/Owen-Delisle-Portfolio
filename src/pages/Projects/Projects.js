@@ -38,7 +38,7 @@ function Projects({ id }) {
       <div className="desc-container">
         <p className="description-text u-margin-btm-md">
           Scary Squares is a 2d platformer video game written entirely in
-          JavaScript and uses JavaScript canvas for the graphics. The objects of
+          JavaScript and uses JavaScript canvas for the graphics. The object of
           the game is to collect as many green paddles as you can while avoiding
           the sawblades and sticky red paddles. Try it out below!
         </p>
@@ -70,9 +70,9 @@ function Projects({ id }) {
 
       <div className="desc-container">
         <p className="description-text u-margin-btm-md">
-          R10 is a scheduling app that shows users a list of talks at an
-          upcoming event. Users are able to see information about each talk as
-          well as the speaker. They can also favourite talks.
+          R10 is a scheduling app that shows users a list of presentations at an
+          upcoming event. Users are able to see information about each
+          presentation as well as the speaker. They can also favourite talks.
         </p>
       </div>
 
@@ -92,9 +92,9 @@ function Projects({ id }) {
         <p className="description-text u-margin-btm-md">
           Ground Control is a Physiotherapy excersice app. The app was created
           for a client who owns a Physiotherapy clinic and wanted to give his
-          clients a way to excercise at home and track their progress. He also
-          wanted to be able to sign into a coach account so he could track his
-          clients progress as well.
+          clients a way to excercise at home and track their progress. The app
+          also has a coach access feature allowing coaches to track their
+          client's progress.
         </p>
       </div>
 
