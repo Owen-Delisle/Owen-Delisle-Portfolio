@@ -6,12 +6,11 @@ function Experience({ id }) {
   return (
     <div id={id} className="Experience">
       <h1 className="heading-primary">Experience</h1>
-      <div className="Experience__container">
+      <div className="Global__container">
         <h2 className="heading-secondary">
           <img
             src="http://www.business2mobile.com/assets/images/ac99ae5640e944dd38c7dc82d7d55444_LetterheadLogo.png"
-            width="550"
-            height="100"
+            className="img"
           />
         </h2>
         <p className="description-text">
@@ -44,8 +43,7 @@ function Experience({ id }) {
         <h2 className="heading-secondary">
           <img
             src="https://pbs.twimg.com/media/DiNi5pVXcAAU4C9.jpg"
-            width="550"
-            height="100"
+            className="img"
           />
         </h2>
         <p className="description-text">

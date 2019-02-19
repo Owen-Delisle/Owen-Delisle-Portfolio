@@ -9,7 +9,7 @@ function Contact({ id }) {
   return (
     <div id={id} className="Contact">
       <h1 className="heading-primary">Contact</h1>
-      <div className="Contact__container">
+      <div className="Global__container">
         <div className="profileContainer">
           <img src={ProfilePic} className="profile" />
         </div>

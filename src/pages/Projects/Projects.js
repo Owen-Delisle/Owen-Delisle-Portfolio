@@ -28,6 +28,13 @@ import GCSC14 from "../../Images/GC/GC SC 14.png";
 import GCSC15 from "../../Images/GC/GC SC 15.png";
 import GCSC16 from "../../Images/GC/GC SC 16.png";
 
+function isMobileDevice() {
+  return (
+    typeof window.orientation !== "undefined" ||
+    navigator.userAgent.indexOf("IEMobile") !== -1
+  );
+}
+
 function Projects({ id }) {
   return (
     <div id={id} className="Projects">
@@ -45,7 +52,11 @@ function Projects({ id }) {
       </div>
 
       <div className="game-container">
-        <Game />
+        {!isMobileDevice() ? (
+          <Game />
+        ) : (
+          <h1 className="unavailable-text">Not available on mobile</h1>
+        )}
       </div>
 
       <h1 className="heading-secondary">Boomtown</h1>

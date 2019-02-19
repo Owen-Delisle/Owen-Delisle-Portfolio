@@ -6,7 +6,7 @@ function Education({ id }) {
   return (
     <div id={id} className="Education">
       <h1 className="heading-primary">Education</h1>
-      <div className="Education__container">
+      <div className="Global__container">
         <h2 className="heading-secondary">Okanagan College</h2>
         <h2 className="heading-secondary-education">
           <img src={Okpic} width="200" height="200" />

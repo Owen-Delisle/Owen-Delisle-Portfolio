@@ -1,18 +1,23 @@
 .HeaderContainer {
+  display: flex;
   flex-grow: 1;
   background-color: #1d1e24;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 80px;
+  height: 5rem;
   z-index: 3;
+  align-items: center;
 }
 
 .content {
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
+}
+a {
+  color: white;
 }
 a:visited {
   color: white;
@@ -23,8 +28,48 @@ a:active {
 }
 
 .name {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: bold;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
+}
+
+.menuIcon {
+  color: white;
+  margin-right: 1rem;
+}
+
+.dropDown {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  background-color: #1d1e24;
+  color: black;
+  width: 200px;
+  height: 300px;
+  top: 5rem;
+  right: 0;
+  position: fixed;
+}
+
+@media only screen and (max-width: 600px) {
+  .HeaderContainer {
+    flex-grow: 1;
+    background-color: #1d1e24;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    z-index: 3;
+    justify-content: space-between;
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 100%;
+  }
 }

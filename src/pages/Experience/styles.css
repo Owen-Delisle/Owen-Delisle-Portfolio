@@ -7,7 +7,23 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 15px;
+  padding: 0.9375rem;
   width: 60%;
   margin: 0 auto;
+}
+
+.img {
+  width: 80%;
+  height: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+  .Experience__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.9375rem;
+    width: 80%;
+    margin: 0 auto;
+  }
 }

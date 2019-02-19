@@ -21,7 +21,7 @@ class Game extends Component {
     this.totalPaddles = [];
     this.player = null;
     this.wh = 600;
-    this.ww = 900;
+    this.ww = 800;
     this.direction = {};
     this.startScreen = false;
   }
@@ -99,7 +99,6 @@ class Game extends Component {
       wh: this.wh
     });
 
-    // for (let y = 700; y <= 1800; y += 100) {
     for (let x = 0; x <= 1000; x += 50) {
       this.sawblades.push(
         (this.sawblade = new SawBlade({
@@ -108,7 +107,6 @@ class Game extends Component {
         }))
       );
     }
-    // }
   };
 
   renderPaddles = () => {

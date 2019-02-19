@@ -5,14 +5,14 @@
 
 .button {
   background-color: transparent;
-  border: 1px solid #84eaa7;
-  border-radius: 5px;
+  border: 0.0625rem solid #84eaa7;
+  border-radius: 0.3125rem;
   color: #84eaa7;
-  padding: 15px 32px;
+  padding: 0.9375rem 2rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1rem;
   outline: none;
   bottom: 0;
 }
@@ -34,4 +34,10 @@
   justify-content: center;
   padding-left: 20%;
   padding-right: 20%;
+}
+
+.unavailable-text {
+  color: red;
+  font-weight: bold;
+  font-size: 15;
 }
