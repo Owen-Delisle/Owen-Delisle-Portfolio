@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "2ec81b4831a3ea1e8a143743aab0c459",
-    "url": "/Owen-Delisle-Portfolio/static/media/GC SC 4.2ec81b48.png"
+    "revision": "b4bcd1f863df8a18c065fb9f7e9820e4",
+    "url": "/Owen-Delisle-Portfolio/static/media/GC SC 3.b4bcd1f8.png"
   },
   {
-    "revision": "b7e23ef31da1c037ccfa",
-    "url": "/Owen-Delisle-Portfolio/static/css/main.317b9b54.chunk.css"
+    "revision": "bc13ea98415ca16338df",
+    "url": "/Owen-Delisle-Portfolio/static/css/main.db04ee4c.chunk.css"
   },
   {
     "revision": "f6f216b5912f4912bb82",
     "url": "/Owen-Delisle-Portfolio/static/js/runtime~main.f6f216b5.js"
   },
   {
-    "revision": "1348aa4af84f3c4f4646",
-    "url": "/Owen-Delisle-Portfolio/static/js/2.1348aa4a.chunk.js"
+    "revision": "bbc7d4d0724018fcb9a2",
+    "url": "/Owen-Delisle-Portfolio/static/js/2.bbc7d4d0.chunk.js"
   },
   {
     "revision": "df4908e117a93041998cd48affca4a2f",
@@ -60,12 +60,12 @@ self.__precacheManifest = [
     "url": "/Owen-Delisle-Portfolio/static/media/GC SC 2.5884e2e1.png"
   },
   {
-    "revision": "b4bcd1f863df8a18c065fb9f7e9820e4",
-    "url": "/Owen-Delisle-Portfolio/static/media/GC SC 3.b4bcd1f8.png"
+    "revision": "bc13ea98415ca16338df",
+    "url": "/Owen-Delisle-Portfolio/static/js/main.bc13ea98.chunk.js"
   },
   {
-    "revision": "b7e23ef31da1c037ccfa",
-    "url": "/Owen-Delisle-Portfolio/static/js/main.b7e23ef3.chunk.js"
+    "revision": "2ec81b4831a3ea1e8a143743aab0c459",
+    "url": "/Owen-Delisle-Portfolio/static/media/GC SC 4.2ec81b48.png"
   },
   {
     "revision": "51df5ca2d26d264276b20c71b3816f6b",
@@ -116,15 +116,11 @@ self.__precacheManifest = [
     "url": "/Owen-Delisle-Portfolio/static/media/GC SC 16.b9e58f4c.png"
   },
   {
-    "revision": "b805dd0bffaa9c4ccc4b0f15b1a3cdc3",
-    "url": "/Owen-Delisle-Portfolio/static/media/profilepic.b805dd0b.jpeg"
-  },
-  {
     "revision": "544945e3d4a4f5dd83f9d409441f1024",
     "url": "/Owen-Delisle-Portfolio/static/media/react-icon.544945e3.png"
   },
   {
-    "revision": "4cc6fac4cf35947ba6feffdefb05b71a",
+    "revision": "51e019fb1a84ffff10705040d8ec7df2",
     "url": "/Owen-Delisle-Portfolio/index.html"
   }
 ];
