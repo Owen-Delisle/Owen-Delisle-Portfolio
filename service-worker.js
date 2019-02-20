@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Owen-Delisle-Portfolio/precache-manifest.a2cff678e6d56f13b3497631be55501e.js"
+  "/Owen-Delisle-Portfolio/precache-manifest.ba1372b8ed965bd27048c7bf3f50290b.js"
 );
 
 workbox.clientsClaim();
