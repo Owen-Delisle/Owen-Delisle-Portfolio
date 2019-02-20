@@ -15,7 +15,7 @@ class Header extends React.Component {
   constructor() {
     super();
     this.state = {
-      showMenu: true
+      showMenu: false
     };
   }
 

@@ -35,6 +35,14 @@ function isMobileDevice() {
   );
 }
 
+function carouselWidth() {
+  if (isMobileDevice()) {
+    return "80%";
+  } else {
+    return "30%";
+  }
+}
+
 function Projects({ id }) {
   return (
     <div id={id} className="Projects">
@@ -69,7 +77,7 @@ function Projects({ id }) {
       </div>
 
       <div className="carousel-container">
-        <Carousel width="62.5%">
+        <Carousel width="63%" renderBottomCenterControls={false}>
           <img src={BoomLogin} />
           <img src={BoomItems} />
           <img src={BoomShare} />
@@ -88,7 +96,11 @@ function Projects({ id }) {
       </div>
 
       <div className="carousel-container">
-        <Carousel width="30%" initialSlideHeight="20">
+        <Carousel
+          width={carouselWidth()}
+          initialSlideHeight="20"
+          renderBottomCenterControls={false}
+        >
           <img src={r10About} />
           <img src={r10Schedule} />
           <img src={r10Faves} />
@@ -111,7 +123,7 @@ function Projects({ id }) {
 
       <div className="carousel-container">
         <Carousel
-          width="30%"
+          width={carouselWidth()}
           initialSlideHeight="20"
           renderBottomCenterControls={false}
         >
